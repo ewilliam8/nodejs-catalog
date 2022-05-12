@@ -1,0 +1,6 @@
+DB_LINK=postgres://user_name:password@localhost:5432/catalog_test
+SERVER_HOST=localhost
+SERVER_PORT=3000
+
+CORS_ORIGINS=["*"]
+CORS_METHODS=["GET", "POST", "PUT", "DELETE", "OPTIONS"]

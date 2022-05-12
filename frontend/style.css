@@ -1,0 +1,101 @@
+.btn {
+    width: 98px;
+}
+
+.users {
+    margin-top: 20rem;
+    margin-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    margin: 0 1rem;
+}
+
+.wrapper {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.layer {
+    margin: 0 5px;
+    display: inline-block;
+    overflow: scroll; /* Добавляем полосы прокрутки */
+    width: 350px; /* Ширина блока */
+    height: 400px; /* Высота блока */
+    padding: 5px; /* Поля вокруг текста */
+    border: solid 1px black; /* Параметры рамки */
+    overflow-x: hidden; /* Нижняя полоса прокрутки */
+}
+
+.direction {
+    min-height: 3rem;
+    border: 2px dashed #f69c55;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.profile {
+    /* width: 100%; */
+    text-align: left;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    vertical-align: middle;
+
+}
+
+.profile_inner {
+    font-size: small;
+    text-align: left;
+    margin-left: 20px;
+    padding-left: 5px;
+    border: 1px solid #b9b9b9;
+}
+
+.profile_inner p {
+    margin: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+
+/* ARROW */
+.up {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    text-align: left;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.down {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    text-align: left;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.column {
+    display: inline-block;
+    width: 30px;
+    vertical-align: middle;
+}
